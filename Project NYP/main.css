@@ -1,0 +1,132 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.header{
+    background-image: url("/architecture-buildings-business-417382.jpg");
+    background-size: contain;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-top: 0px; 
+    position: relative;
+}
+.btn{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    float: right;
+    margin-top: 63px;
+    margin-right: 60px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.9;
+    border: 2px solid #a8bbc7;
+    
+}
+.header h1{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 50px;
+    width: 500px;
+}
+#header{
+    margin: 0;
+}
+
+/*navigation*/
+.nav{
+    background-color:#a8bbc7;
+    overflow: hidden;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    display: inline-block;
+}
+.hov :hover{
+    background-color: #859372;
+    color: black;
+}
+.nav ul li a.active{
+    background-color: black;
+}
+
+/* dropdown */
+.loc-box{
+    margin-top: 10px;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 550px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #a8bbc7;
+}
+option{
+    border-radius: 20px;
+}
+
+
+/* main footer */
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer small, .footer a{
+    color: orange;
+}
+
+/* cards */
+.home-cards-section{
+    width: 100%;
+    height: auto;
+    margin-left:0;
+
+}
+#cards img{
+    width: 450px;
+    height: 250px;
+    margin: 0;
+
+}
+td{
+    padding: 50px;
+    text-align: center;
+}
+tr{
+    width: 100%;
+}
+
+
+.zoom{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    transition: all 1s;
+    opacity: 0.9;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+

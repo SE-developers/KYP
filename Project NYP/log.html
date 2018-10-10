@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+        }
+        .bg{
+            background-image: url(/abstract-art-colorful-942317.jpg);
+            height: 100%;
+            /* width: 60%; */
+            margin: 0;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            filter: blur(2px);
+            position: relative;
+        }
+        .form{
+            filter: blur(0);
+            position: absolute;
+            left: 800px;
+            top: 50px;
+            font-size: 20px;
+            
+        }
+        .form td{
+            padding: 10px;
+        }
+        .form input{
+            background-color: green;
+            width: 200px;
+            height: 20px;
+            border-radius: 18px;
+        }
+        input[type='radio']{
+            padding: 5px;
+            margin: 0;
+            width: 25px;
+        }
+        input:focus{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<div class="bg"></div>
+    <div class="form">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" name="type">User
+                    </td>
+                    <td>
+                        <input type="radio" name="type">Admin
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>User Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Log In</button>
+                    </td>
+                </tr>    
+                <tr>
+                    <td colspan="2"><p>Not a member?<a href="signup.html">Sign up</a></p></td>
+                </tr>
+            </table>
+        </form>
+    </div> 
+</body>
+</html>
